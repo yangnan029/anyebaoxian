@@ -1,0 +1,122 @@
+.completeInformation{
+  position: absolute;
+  overflow: hidden;
+  height:100%;
+  width:100%;
+  .fileinput{
+    position: absolute;
+    top:2.013889rem;
+    left:3.902778rem;
+    width:2.194444rem;
+    height:2.194444rem;
+    overflow: hidden;
+    border-radius: 50%;
+    font-size: 13.888889rem;
+    z-index:2;
+    opacity: 0;
+  }
+  h2{
+    font-size: 0.5rem;
+    font-family: 'regular';
+    color:#333;
+    text-align: center;
+    margin-top:0.416667rem;
+  }
+  .skip-btn{
+    position: absolute;
+    left:8.583333rem;
+    top:0.416667rem;
+    color:#999;
+    font-size: 0.5rem;
+    font-family: 'regular';
+  }
+  .photo-btn{
+    position: absolute;
+    top:2.013889rem;
+    left:3.902778rem;
+    width:2.194444rem;
+    height:2.194444rem;
+    overflow: hidden;
+    border-radius: 50%;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+  .user-detail{
+    position: absolute;
+    width: 8.5rem;
+    height: 9.208333rem;
+    background-image: url('../../assets/diban.png');
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    top: 3.027778rem;
+    left:0.75rem;
+    background-position: 0 0;
+    padding: 2.666667rem 0.625rem 0;
+    box-sizing: border-box;
+    & > a, & > .mint-radiolist, & > .vux-cell-box{
+      border-bottom: 1px solid #eee;
+    }
+    .mint-cell{
+      background-image:none !important;
+    }
+    .mint-radiolist{
+      display:flex;
+    }
+    .mint-radiolist-title{
+      font-size: 0.416667rem;
+      color:#333;
+      display: flex;
+      align-items: center;
+      margin:0;
+      margin-right:1.111111rem;
+    }
+    .mint-radio-core{
+      margin-left:0.277778rem;
+    }
+    .mint-cell-wrapper{
+      padding:0;
+      background-image: none;
+    }
+    .mint-radio-input:checked + .mint-radio-core{
+      background-color: #ff745f;
+      border-color: #ff745f;
+    }
+    .vux-cell-box{
+      margin-top:0.416667rem;
+      padding-bottom:0.416667rem;
+      &:before{
+        border-top:0 none !important;
+      }
+    }
+    .vux-popup-picker-placeholder{
+      font-size: 0.416667rem;
+    }
+    .vux-popup-picker-value{
+      font-size: 0.416667rem;
+    }
+    .weui-cell{
+      display:flex;
+      .weui-label{
+        color:#333;
+        font-size: 0.416667rem;
+      }
+    }
+  }
+  .confirm-btn{
+    position: absolute;
+    width:3.055556rem;
+    height:0.916667rem;
+    bottom:-0.25rem;
+    left:2.722222rem;
+    img{
+      width:100%;
+      height:100%;
+    }
+  }
+}
+.vux-popup-picker-container .vux-popup-header{
+  height:auto;
+  line-height: 2.5em;
+}

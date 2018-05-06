@@ -1,0 +1,98 @@
+.myTopic{
+  position: fixed;
+  width:100%;
+  height:100%;
+  display: flex;
+  flex-direction: column;
+  .vux-header{
+    border-bottom: 1px solid #efefef;
+  }
+  .myTopic-container{
+    flex:1;
+    overflow: scroll;
+    .myTopic-item{
+      background-color: #fff;
+      padding-bottom: 0.2rem;
+      .myTopic-header{
+        display: flex;
+        height: 1.2rem;
+        align-items: center;
+        border-bottom: 1px solid #ccc;
+        justify-content: space-between;
+        padding:0 0.4rem;
+        span{
+          font-size: 0.4rem;
+          color:#333;
+        }
+        div{
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          height:100%;
+          div{
+            width:1.2rem;
+            height:100%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-left: 0.666667rem;
+          }
+          .jinghua-icon{
+            width:0.493333rem;
+            height:0.8rem;
+          }
+          .delete-icon{
+            width:0.8rem;
+            height:0.8rem;
+          }
+        }
+      }
+      .myTopic-content{
+        padding: 0.333333rem 0.4rem 0;
+        h2{
+          font-size: 0.453333rem;
+          color:#333;
+          font-weight: bold;
+          margin-bottom: 0.173333rem;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          display:-webkit-box;
+          -webkit-box-orient:vertical;
+          -webkit-line-clamp:2;
+          line-height: 1.3em;
+          max-height: 2.6em;
+        }
+        p{
+          font-size: 0.373333rem;
+          margin-bottom: 0.173333rem;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          display:-webkit-box;
+          -webkit-box-orient:vertical;
+          -webkit-line-clamp:5;
+          line-height: 1.3em;
+          max-height: 6.5em;
+        }
+      }
+      .myTopic-bottom{
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        padding: 0 0.4rem;
+        div{
+          align-items: center;
+          display: flex;
+          margin-left: 0.8rem;
+        }
+        img{
+          width:0.555556rem;
+          margin-right: 0.138889rem;
+        }
+        span{
+          color:#333;
+          font-size:0.293333rem;
+        }
+      }
+    }
+  }
+}

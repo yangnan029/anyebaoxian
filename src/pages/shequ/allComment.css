@@ -1,0 +1,134 @@
+.vux-header {
+  background-color: #ffffff !important;
+  margin-bottom: 0 !important;
+  padding: 3px 0 !important;
+}
+.vux-header-left .left-arrow:before {
+  border-width: 2px 0 0 2px !important;
+  border-color: #333 !important;
+}
+.vux-header-title {
+  color: #333 !important;
+  font-size: 0.5rem !important;
+  font-weight: bold !important;
+}
+.vux-radio-label {
+  font-size: 0.416667rem;
+}
+.allComment {
+  height: 100%;
+}
+.allComment .allComment-container {
+  position: relative;
+  padding-top: 40px;
+}
+.allComment .allComment-container .allComment-title {
+  width: 100%;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 9999;
+  border-bottom: 1px solid #f0f0f0;
+}
+.allComment .allComment-container .fengetiao {
+  height: 0.2rem;
+  width: 100%;
+}
+.allComment .allComment-container .topDetail-comment-item {
+  border-bottom: 1px solid #eee;
+  padding: 0 0.416667rem;
+  padding-bottom: 0.2rem;
+}
+.allComment .allComment-container .topDetail-comment-item.last {
+  border-bottom: none;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 1.666667rem;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-left {
+  display: flex;
+  align-items: center;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-left div {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 0.972222rem;
+  margin-top: 0.3rem;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-left div p {
+  font-size: 0.373333rem;
+  color: #333;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-left div span {
+  font-size: 0.28rem;
+  color: #999;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-left img {
+  width: 0.972222rem;
+  height: 0.972222rem;
+  border-radius: 0.486111rem;
+  margin-right: 0.277778rem;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-right {
+  display: flex;
+  align-items: center;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-right .zan {
+  width: 0.486111rem;
+  height: 0.486111rem;
+  vertical-align: middle;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-right span {
+  font-size: 0.4166667rem;
+  color: #ff5958;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-right span.number {
+  padding-left: 0.2083333rem;
+  margin-right: 0.486111rem;
+  padding-top: 0.1rem;
+  color: #666;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-header .topic-item-header-right span.review {
+  padding-left: 0.486111rem;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-content {
+  margin-top: 0.1rem;
+  color: #333;
+  font-size: 0.373333rem;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-content p.main-content {
+  padding-bottom: 0.416667rem;
+  padding-left: 1.2rem;
+  color: #666;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-content .reviews {
+  margin-left: 1rem;
+  background: #f0f0f0;
+  padding: 0.2rem;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-content .reviews p {
+  margin-bottom: 0.rem;
+  line-height: 1.5;
+  color: #666666;
+  font-size: 0.373333rem;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-content .reviews p span {
+  color: #ff5958;
+  padding-right: 0.2rem;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-content .reviews p.all-reviews {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  font-size: 0.388889rem;
+  color: #999;
+}
+.allComment .allComment-container .topDetail-comment-item .comment-item-content .reviews p.all-reviews img {
+  width: 0.208333rem;
+  margin-left: 0.15rem;
+  vertical-align: middle;
+}
